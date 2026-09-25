@@ -1,6 +1,4 @@
-USE college;
 
-DROP TABLE IF EXISTS patients;
 CREATE TABLE patients (
     patient_id INT NOT NULL AUTO_INCREMENT,
     patient_number VARCHAR(15) NOT NULL,
