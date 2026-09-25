@@ -1,6 +1,4 @@
-USE college;
 
-DROP TABLE IF EXISTS customers;
 CREATE TABLE customers (
     customer_id INT NOT NULL AUTO_INCREMENT,
     customer_code VARCHAR(12) NOT NULL,
